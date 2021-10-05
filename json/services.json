@@ -1,0 +1,17 @@
+[
+  {
+    "name": "General Services",
+    "description": "\tCambridge Hospital provides comprehensive care. We offer an expert team of physicians specializing in internal medicine, family medicine, pediatrics, geriatrics and a number of other specialty services. Cambridge Hospital helps you manage your overall health with preventive care, annual physicals and treatments when you are ill. And by selecting a Cambridge Hospital physician, you gain access to the entire, integrated Cambridge Hospital system, which includes exceptional physician specialists, clinical trials, home care services and more.",
+    "images": "services-general_services.jpg"
+  },
+  {
+    "name": "Health Checkups",
+    "description": "The Cambridge Health Checks offers you the convenience of all the tests under one roof and immediate treatment if called for.\n\tCambridge Hospital has been a pioneer in the area of healthcare with vast experience in the area of preventive healthcare, a range of tailor-made packages have been developed to cater to the needs of a wide cross section of individuals.\n\tCambridge Hospital offers you a wide range of screening Programmes to suit individual needs:",
+    "images": "services-health_checkup.jpg"
+  },
+  {
+    "name": "Specialities",
+    "description": "\tCenter for Inflammatory Bowel Disease: For patients with Crohn’s disease or ulcerative colitis, our treatment options include inpatient and outpatient infusion and injection therapy. During infusion therapy, patients are administered a type of drug called a biologic through an IV drip.  Biologics target proteins in the body that cause inflammation. When coupled with quality care coordination, infusion options can help patients with moderate to severe IBD successfully treat symptoms, avoid complications of their disease, and potentially reverse the damage caused by inflammation.\n\tLiver Disease Program: The Liver Disease Program specializes in minimally-invasive and endoscopic approaches. Endoscopic techniques allow clinicians to diagnose and treat conditions using a thin, flexible tube equipped with small lights, a camera, and surgical tools. This tube, called an endoscope, can be inserted into the GI tract through the body’s natural openings or through small incisions.",
+    "images": "services-specialties.jpg"
+  }
+]

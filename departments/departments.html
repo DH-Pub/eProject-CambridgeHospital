@@ -1,0 +1,235 @@
+<!-- data = "description" -->
+<div class="container body-color">
+  <div class="row">
+    <div class="col-lg-3 dep-sidebar" ng-controller="depCatalogCtrl">
+      <h3>Departments</h3>
+      <ul class="list-group">
+        <li class="list-group-item" ng-class="{activeDepartment:isActive('/departments/{{dep.id}}')}"
+          ng-repeat="dep in departmentList"><a class="nav-link" href="#!/departments/{{dep.id}}">{{dep.name}}</a></li>
+      </ul>
+    </div>
+    <!-- Description + Doctors -->
+    <div class="col-lg-8">
+      <h1>{{department.name}}</h1>
+      <img class="img-fluid" ng-src="img/departments/{{department.images}}" alt="">
+      <div class="description">
+        {{department.descriptions}}
+      </div>
+      <p [innerHTML]="'departments.descriptions' | translate"></p>
+      <h2>Meet our Specialists</h2>
+      <div class="container-fluid row">
+        <div class="col-md-12 row specialists" ng-repeat="doctor in department.doctors">
+          <div class="col-md-3">
+            <img class="img-fluid w-100 " src="img/departments/doctors/{{doctor.images}}" alt="">
+          </div>
+          <div class="col-md-9">
+            <h4>Details</h4>
+            <p class="description">{{doctor.details}}</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Helpdesk</h2>
+
+      <div class="container" id="helpdesk">
+        <div class="row ">
+          <button class="btn btn-primary card-1" type="button" data-bs-toggle="collapse" data-bs-target="#visitor"
+            aria-expanded="false" aria-controls="visitor">
+            <span class="arrow-blue"> I am a hospital patient, visitor, or family member</span>
+          </button>
+
+          <div class="collapse" id="visitor">
+            <div class="card card-body card-2">
+              Okay, please tell me a bit more about yourself...
+            </div>
+          </div>
+          <div class="collapse" id="visitor">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I want to visit a patient in hospital</span>
+            </div>
+          </div>
+          <div class="collapse" id="visitor">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I need emergency care</span>
+            </div>
+          </div>
+          <div class="collapse" id="visitor">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I need to pay a hospital bill</span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <button class="btn btn-primary card-1" type="button" data-bs-toggle="collapse"
+            data-bs-target="#information" aria-expanded="false" aria-controls="information">
+            <span class="arrow-blue"> I am looking for program information</span>
+          </button>
+
+          <div class="collapse" id="information">
+            <div class="card card-body">
+              Okay, please tell me a bit more about what specific information you are looking for ...
+            </div>
+          </div>
+
+          <div class="collapse" id="information">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am looking for information about senior care services</span>
+            </div>
+          </div>
+          <div class="collapse" id="information">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am looking for information about surgical services</span>
+            </div>
+          </div>
+          <div class="collapse" id="information">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am looking for information about outpatient services</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <button class="btn btn-primary card-1" type="button" data-bs-toggle="collapse" data-bs-target="#physician"
+            aria-expanded="false" aria-controls="physician">
+            <span class="arrow-blue"> I am a physician</span>
+          </button>
+
+          <div class="collapse" id="physician">
+            <div class="card card-body ">
+              Okay, tell me a bit more about the information you are looking for ...
+            </div>
+          </div>
+
+          <div class="collapse" id="physician">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am interested in learning more about the Hospital’s quality
+                performance</span>
+            </div>
+          </div>
+          <div class="collapse" id="physician">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am looking to make a referral</span>
+            </div>
+          </div>
+          <div class="collapse" id="physician">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am looking for information about outpatient services</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <button class="btn btn-primary card-1" type="button" data-bs-toggle="collapse" data-bs-target="#join"
+            aria-expanded="false" aria-controls="join">
+            <span class="arrow-blue"> I would like to join the Cambridge Hospital</span>
+          </button>
+
+          <div class="collapse" id="join">
+            <div class="card card-body">
+              Okay, please tell me a bit more about how you are interested in joining us ...
+            </div>
+          </div>
+
+          <div class="collapse" id="join">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am a job seeker looking for available job openings</span>
+            </div>
+          </div>
+          <div class="collapse" id="join">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am a health professional student looking for placement
+                opportunities</span>
+            </div>
+          </div>
+          <div class="collapse" id="join">
+            <div class="card card-body">
+              <span class="arrow-blue-outline"> I am a high school student looking for a volunteer opportunity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <h2>Registration</h2>
+        <div class="col-md-12" ng-controller="registerCtrl">
+
+          <form name="registerFrm" id="register-form" novalidate>
+            <div>New Registrants: To begin the registration process, enter your email address and create a password, which you will use to log in.</div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <input type="email" class="form-control" name="email" placeholder="Email" ng-model="registerEmail" required>
+              </div>
+              <small class="col-md-6 d-flex align-items-center"
+                ng-show="registerFrm.email.$error.invalid || registerFrm.email.$error.required">Please enter your email address!</small>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <input type="password" class="form-control" name="password" placeholder="Password" autocomplete="off" ng-minlength="5" ng-model="registerPassword" required>
+              </div>
+              <small class="col-md-6 d-flex align-items-center"
+                ng-show="registerFrm.password.$error.minlength || registerFrm.password.$error.required">Please enter password contain at least 5 characters!</small>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password" autocomplete="off" ng-minlength="5" ng-model="registerComfirmPassword" required>
+              </div>
+              <small class="col-md-6 d-flex align-items-center"
+                ng-show="registerFrm.confirmPassword.$error.minlength || registerFrm.confirmPassword.$error.required">Please enter confirm password!</small>
+            </div>
+
+            <input type="submit" class="btn" ng-disabled="registerFrm.$invalid" ng-click="registerCheck()"
+              value="Submit">
+          </form>
+        </div>
+
+      <h2>Doctor Schedule</h2>
+      <div class="">
+        <table class="table">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Availability</th>
+              <th scope="col">On Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="doctor in department.doctors">
+              <td scope="row">{{doctor.name}}</td>
+              <td>{{doctor.availability}}</td>
+              <td>{{doctor.on_date}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="">Billing and Accounts</h2>
+      <div class="container">
+        <div class="row mx-5" id="billing">
+          <div class="col-md-5">
+            <h3>Individual</h3>
+            <h4>Standard</h4>
+            ${{department.packages.individual.standard.price}}<br>
+            {{department.packages.individual.standard.note}}<br>
+            <h4>Prepaid</h4>
+            ${{department.packages.individual.prepaid.price}}<br>
+            {{department.packages.individual.prepaid.note}}
+          </div>
+          <div class="col-md-5">
+            <h3>Family</h3>
+            <h4>Standard</h4>
+            ${{department.packages.family.standard.price}}<br>
+            {{department.packages.family.standard.note}}<br>
+            <h4>Prepaid</h4>
+            ${{department.packages.family.prepaid.price}}<br>
+            {{department.packages.family.prepaid.note}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

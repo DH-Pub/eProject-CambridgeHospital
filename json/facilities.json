@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Rooms",
+    "description": "\tRooms at Cambridge Hospital are established as international standard single patient rooms, providing professional and safe health care process, as well as the opportunity to enjoy the high quality, world-class medical services.\n\tSpecial utilities in each Standard room\n\t • A wall mounted television, which is placed oppositely to the patient bed\n\t • A wardrobe, contained basic items such as hangers, slippers, health scales...\n\t • A patient bed, accompanied by modern two-way audio communication nurse call system\n\t • A desk phone\n\t • An adjustable movable bedside table with wheels\n\t • A refrigerator\n\t • A restroom including shower enclosure, wash basin and toilet, especially, nurse call pull cord is installed to ensure patient safety\n\t • Especially, there is a separated baby bathing area in each Obstetric inpatient room, helping mother and nurses practice daily hygiene for the baby right at the inpatient room, to assure the baby health and safety in the very first days after birth, and decrease inordinate distances.",
+    "images": [
+      {"path": "facilities-rooms_standard.jpg"}
+    ]
+  },
+  {
+    "name": "ICU",
+    "description": "\tAt Cambridge Hospital , there are five Intensive Care units. Each unit is geared toward the care of different types of patients, and all are staffed by physicians, nurses, respiratory therapists, and other professionals trained in the care of critically ill patients.\n\tCardiovascular Surgery ICU (2NW): Patients who have just undergone cardiac surgery receive specialized care in this ICU. Clinicians trained in cardiac recovery help  patients stabilize, providing advanced surgical critical care.",
+    "images": [
+      {"path": "facilities-ICU.jpg"}
+    ]
+  },
+  {
+    "name": "Medical Facility",
+    "description": "\tAfter more than a century of healing, Cambridge Hospital is a mainstay in the community, serving patients, with the services of a large. From internal medicine and surgery, obstetrics, diabetes, behavioral health, orthopaedics, and geriatrics to cardiology and urology, our team of caring physicians and associates serves the unique needs of every patient.",
+    "images": [
+      {"path": "facilities-medical_facility-hospital.jpg"}
+    ]
+  },
+  {
+    "name": "Urgent Care",
+    "description": "\tWhen you have an illness or injury that is not life-threatening, or if you need a flu shot or a physical, Cambridge Urgent Care is here to provide quality, convenient medical care. We are open weekends and evenings-and walk-ins are welcome.",
+    "images": [
+      {"path": "facilities-medical_facility-urgent_care.jpg"}
+    ]
+  },
+  {
+    "name": "Physical Therapy",
+    "description": "\tWhether you’ve experienced a sports injury or you have an orthopedic or neurological condition, our physical therapists can help reduce your pain, improve your mobility, and prevent further injury.",
+    "images": [
+      {"path": "facilities-other_facility-physical_therapy.jpg"}
+    ]
+  },
+  {
+    "name": "Other Facility",
+    "description": "\tCambridge Research Institute is the research arm of Cambridge Hospital. It provides scientific, administrative and regulatory support for research that complements Cambridge’s clinical services and teaching programs. The Research Institute conducts clinical, healthcare delivery and outcomes research in all of the hospital and ambulatory settings.",
+    "images": [
+      {"path": "facilities-other_facility-office.jpg"}
+    ]
+  }
+]

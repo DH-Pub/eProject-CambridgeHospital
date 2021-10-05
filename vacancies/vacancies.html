@@ -1,0 +1,56 @@
+<div class="container body-color">
+  <div class="offset-md-2 col-md-8">
+    <h1>We are hiring</h1>
+    <p>Cambridge Hospital is one of the famous hospitals in the town since 1928. We are trying our best to contribute and maintain a healthy society.<br>Society would be better with your help.</p>
+    <h2>Requirements</h2>
+    <ul>
+      <li>Bachelor Degree in related department with strong academic performance</li>
+      <li>Motivated and disciplined to work effectively and autonomously</li>
+      <li>Highest personal and professional standards of integrity and ethics
+      </li>
+      <li>Experience is not required but recommended</li>
+      <li>Being able to speak more than one language is also recommended</li>
+    </ul>
+
+    <hr>
+    <h2>Submit your resume:</h2>
+    <div ng-controller="cvCtrl">
+      <form name="cvFrm" id="resume-submit" novalidate>
+        <div class="form-group">
+          <input type="file" class="form-control-file" ng-model="cvFile">
+        </div>
+        <div class="form-group row">
+          <div class="col-md-7">
+            <input type="text" class="form-control" name="name" placeholder="Name" ng-model="cvName" required>
+          </div>
+          <small class="col-md-5 d-flex align-items-center" ng-show="cvFrm.name.$error.required">Please enter your name!</small>
+        </div>
+  
+        <div class="form-group row">
+          <div class="col-md-7">
+            <input type="email" class="form-control" name="email" placeholder="Email" ng-model="cvEmail" required>
+          </div>
+          <small class="col-md-5 d-flex align-items-center"
+            ng-show="cvFrm.email.$error.invalid || cvFrm.email.$error.required">Please enter your email address!</small>
+        </div>
+  
+        <div class="form-group row">
+          <div class="col-md-7">
+            <input type="number" class="form-control" name="contact" placeholder="Contact Number" ng-model="cvNumber"
+              required>
+          </div>
+          <small class="col-md-5 d-flex align-items-center" ng-show="cvFrm.contact.$error.required">Please enter a valid phone number!</small>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-md-7">
+            <textarea class="form-control" name="aboutYou" rows="5" placeholder="More about you" ng-model="cvQuestion" required></textarea>
+          </div>
+          <small class="col-md-5 d-flex align-items-center" ng-show="cvFrm.aboutYou.$error.required">Please tell us about you</small>
+        </div>
+
+        <input type="submit" class="btn" ng-disabled="cvFrm.$invalid" ng-click="cvCheck()" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>

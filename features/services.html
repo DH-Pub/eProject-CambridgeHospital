@@ -1,0 +1,12 @@
+<!-- {{serviceList}} -->
+<div class="container body-color">
+  <div ng-repeat="service in serviceList">
+    <h3 class="text-center">{{service.name}}</h3>
+    <div class="row">
+      <div class="offset-md-3 col-md-6 text-center">
+        <img class="img-fluid mx-auto shadow-sm bg-body rounded facility-image " src="img/services/{{service.images}}" alt="">
+      </div>
+    </div>
+    <p class="facility-description">{{service.description}}</p>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Diagnostic Centre",
+    "description": "\tMRI: Magnetic Resonance Imaging is a relative new imaging study, which is also widely available in hospitals and outpatient radiology facilities. An MR unit is very similar in appearance to a CT or PET scanner, although there are some differences. MR does not use radiation, and it allows superior images of soft tissue structures, such as the neck.\n\tCT scan: A CT scan is frequently performed with an injection of a material called 'contrast.' Before receiving the contrast injection, check with your endocrinologist, nuclear medicine physician or nuclear radiologist to assure that you are permitted to receive the contrast. If you are not sure, do not take the contrast. Contrast contains large amounts of iodine, which may block or significantly reduce the uptake of radioiodine by thyroid tissue. This could affect the quality of your radioiodine whole body scan or effectiveness of your treatment.",
+    "images": "centres-diagnostic_centre.jpg"
+  },
+  {
+    "name": "Cancer Centre",
+    "description": "\tWhen you need to know what to do next, Cambridge Hospital cancer teams are here with leading technology and compassionate care tailored to your cancer diagnosis. Our teams bring together the expertise of world-renowned doctors supported by registered nurses, nutritionists, pharmacists, and other specialists, as well as innovative researchers working on new techniques and cancer treatments. Cambridge Hospital  has state-of-the-art facilities for the diagnosis and treatment of cancer.\n\tOur doctors are experts in their fields and provide you with patient-focused care. We treat many different cancers including:\n\t - Blood Cancer\n\t - Breast Cancer\n\t - Esophageal Cancer\n\t - Gastrointestinal (Colorectal, Pancreatic, Peritoneal, Small Bowel) Cancer\n\t - Head and Neck Cancers\n\t - Kidney Cancer\n\t - Lung Cancer\n\t - Melanoma (Skin) Cancer\n\t - Orthopaedic Cancer\n\t - Prostate Cancer\n\t - Sarcoma\n\t - Thyroid Cancer",
+    "images": "centres-cancer_centre.jpg"
+  },
+  {
+    "name": "Heart Centre",
+    "description": "\tCambridge Hospital is a national leader in the research, diagnosis, and treatment of cardiovascular disease. Our experts provide the outstanding heart and vascular care you deserve.\n\tWithin each of our clinical services, we provide highly specialized diagnostic testing, targeted treatments, access to the latest research, and recovery services.\n\t - Adult Congenital Heart Program\n\t - Advanced Heart Failure Program\n\t - Cardiac Electrophysiology\n\t - Cardiac Imaging\n\t - Cardiac Rehabilitation\n\t - Cardiac Surgery\n\t - Cardiology\n\t - Complex Aortic Program\n\t - Interventional Cardiology\n\t - Vein Program",
+    "images": "centres-heart_centre.jpg"
+  },
+  {
+    "name": "Community Health Centre",
+    "description": "\tPartnering with our communities to improve health: Community Health is dedicated to improving the health of our communities through partnerships, and the delivery of accessible care, evidence-based education and wellness services. Classes and services are designed to provide information and resources for informed health decisions.\n\tCommunity Health Publications: Cambridge Hospital releases a Community Health Needs Assessment every three years, along with an annual Report to the Community.\n\tCommunity Health Programs: Cambridge Hospital works with several partners to address the health of community members and bring resources to those in need. Community Health provides several programs to address identified health priorities, including management of chronic disease.",
+    "images": "centres-community_health_centre.jpg"
+  }
+]

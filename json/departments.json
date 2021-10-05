@@ -1,0 +1,362 @@
+[
+  {
+    "id": "cardiology",
+    "name": "Cardiology",
+    "descriptions": "Heart failure occurs when your heart doesn't fill with enough blood or doesn't pump enough blood throughout your body. This is different from sudden cardiac arrest, in which the heart actually stops beating.\n\tMost cases of heart failure are caused by damage to the heart due to an underlying condition, such as:\n\t • Arrhythmia, or irregular heartbeat\n\t • Cardiomyopathy, or disease of the heart muscle\n\t • Coronary artery disease\n\t • Congenital defects and disease, or heart conditions you're born with\n\t • Heart attack\n\t • Heart valve disease\n\t • High blood pressure",
+    "images": "department-cardiology.jpg",
+    "thumb": "department-cardiology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-cardiology-doctor_1.jpg",
+        "details":"\nDr. Gaby Weissman, MD\nSpecialties: Valvular Disease Cardiology, Structural Heart\nDisease Cardiology, Cardiac Imaging\nLanguages: Hebrew, English\n110 Irving Street Northwest Department of Cardiology\nSuite 6015 Washington, DC 20010\nPhone: 202-877-7777",
+        "name": "Dr. Gaby Weissman",
+        "availability": "8:00 AM to 5:00 PM",
+        "on_date": "Tue, Wed, Thu, Fri, Sat"
+      },
+      {
+        "images": "department-cardiology-doctor_2.jpg",
+        "details":"\nDr. Mansoor Mozayan, MD\nSpecialties: Cardiology\nLanguages: English\n9105 Franklin Square Drive White Square Prof Bldg Rosedale, MD 21237\nPhone: 410-574-1330",
+        "name": "Dr. Mansoor Mozayan",
+        "availability": "1:00 PM to 9:00 PM",
+        "on_date": "Mon, Tue, Thu, Fri, Sat"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":275,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1500,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":375,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1800,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "pulmonology",
+    "name": "Pulmonology",
+    "descriptions": "Cambridge Health provides both inpatient and outpatient services to diagnose and treat breathing diseases and disorders. Some of the conditions we treat include:\n\t • Asthma\n\t • Chronic bronchitis\n\t • Chronic obstructive pulmonary disease (COPD)\n\t • Dyspnea (shortness of breath)\n\t • Emphysema\n\t • Interstitial lung disease\n\t • Lung cancer\n\t • Sleep apnea\n\t • Pneumonia\n\t • Pulmonary hypertension",
+    "images": "department-pulmonology.jpg",
+    "thumb": "department-pulmonology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-pulmonology-doctor_1.jpg",
+        "details":"\nDr. Kiersten Henry, DNP\nLanguages: English\nSpecialties: Pulmonology\n18101 Prince Philip Drive\nSuite 2024A Olney, MD 20832\nPhone: 301-774-8918",
+        "name": "Dr. Kiersten Henry",
+        "availability": "6:00 AM to 1:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      },
+      {
+        "images": "department-pulmonology-doctor_2.jpg",
+        "details":"\nDr. John H. Sherner, III, MD\nLanguages: English\nSpecialties: Critical Care Medicine, Pulmonology\n102 Irving Street Northwest Washington, DC 20010\n Phone: 202-877-0333",
+        "name": "Dr. John H. Sherner",
+        "availability": "1:00 PM to 9:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":260,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1400,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":350,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1650,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "outpatient-surgery",
+    "name": "Outpatient Surgery",
+    "descriptions": "Outpatient surgery allows a person to return home on the same day that a surgical procedure is performed.\n\tOutpatient surgery is also referred to as ambulatory surgery or same-day surgery.\n\tOutpatient surgery eliminates inpatient hospital admission, reduces the amount of medication prescribed, and uses a doctor's time more efficiently. More procedures are now being performed in a surgeon's office, termed office-based surgery, rather than in an operating room",
+    "images": "department-outpatient_surgery_1.jpg",
+    "thumb": "department-outpatient_surgery-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-outpatient_sergery-doctor_1.jpg",
+        "details":"\nDr. Ankit B. Shah, MD, MPH\nSpecialties: Outpatient surgery\nLanguages: English\n3333 North Calvert Street Johnston Professional Building Baltimore, MD 21218\nPhone: 410-554-6550",
+        "name": "Dr. Ankit B. Shah",
+        "availability": "1:00 PM to 8:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      },
+      {
+        "images": "department-outpatient_sergery-doctor_2.jpg",
+        "details":"\nDr. Tolulope Adesiyun Agunbiade, MD\nSpecialties: Outpatient surgery\nLanguages: English\n3001 South Hanover StreetBaltimore, MD 21225\nPhone: 410-554-6550",
+        "name": "Dr. Tolulope Adesiyun Agunbiade",
+        "availability": "7:00 PM to 2:00 PM",
+        "on_date": "Mon, Tue, Thu, Fri"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":205,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1230,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":295,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1670,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "gynecology",
+    "name": "Gynecology",
+    "descriptions": "At Cambridge Hospital, our gynecologists coordinate care with your primary care physician to make sure you receive the best care over the long term. Our gynecology services include:\n\t • Abnormal uterine bleeding\n\t • Pelvic pain\n\t • Premenstrual syndrome\n\t • Endometriosis\n\t • Fibroids\n\t • Uterine growths and ovarian cysts\n\t • Urinary disorders\n\t • Infertility\n\tWe also have the resources and expertise to treat HIV-positive patients and other immunosuppressed patients.\n\tWhenever possible, we offer services on an outpatient basis. When you do need to be admitted to the hospital, we have comfortable inpatient units that meet the special needs of our women patients.",
+    "images": "department-gynecology.jpg",
+    "thumb": "department-gynecology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-gynecology-doctor_1.jpg",
+        "details":"\nDr. Anjili Srivastava, DO\nSpecialties: Gynecology\nLanguages: Urdu, Hindi, English\n3001 South Hanover StreetSuite 301 Baltimore, MD 21225\nPhone: 410-366-5600",
+        "name": "Dr. Anjili Srivastava",
+        "availability": "4:00 PM to 10:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu"
+      },
+      {
+        "images": "department-gynecology-doctor_2.jpg",
+        "details":"\nDr. Oluseyi Omole Princewill, MD, MPH\nSpecialties: Gynecology\nLanguages: English\n18101 Prince Philip DriveSuite 4100Olney, MD 20832\nPhone: 301-570-7404",
+        "name": "Dr. Oluseyi Omole Princewill",
+        "availability": "1:00 PM to 7:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":265,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1450,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":360,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1750,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "neurology",
+    "name": "Neurology",
+    "descriptions": "The last great frontier for humankind is our understanding of our own brains. Neurology is experiencing a robust surge of knowledge, as doctors and researchers discover new wonders about the brain every day. At the forefront of these discoveries are the neurologists at Cambridge Hospital, who specialize in evaluating, diagnosing and treating both common and rare neurological conditions and diseases.\n\tThere are very few hospitals in the world where you will find such a wide variety of neurology specialists under one roof. Cambridge’s physicians are experts in treating disorders of the brain and spine, offering new options and hope to patients with even the most complex cases.\n\tLearn more about our areas of expertise in Neurology:\n\t • Epilepsy\n\t • Headache Center\n\t • Huntington's Disease Center\n\t • Interventional Neuroradiology\n\t • Parkinson's and Movement Disorders\n\t • Pediatric Neurology\n\t • Stroke Center\n\t • Spasticity Center\n\t • Spine Center",
+    "images": "department-neurology.jpg",
+    "thumb": "department-neurology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-neurology-doctor_1.jpg",
+        "details":"\nDr. Jared Michael Widell, MD\nSpecialties: Neurology\nLanguages: English\n5601 Loch Raven Boulevard Building 2 Baltimore, MD 21239\nPhone: 202-877-6264",
+        "name": "Dr. Jared Michael Widell",
+        "availability": "4:00 PM to 10:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      },
+      {
+        "images": "department-neurology-doctor_2.jpg",
+        "details":"\nDr. Shalin Patel, MD\nSpecialties: Neurology\nLanguages: English\n18101 Prince Philip Drive\nSuite 2002 Olney, MD 20832\nPhone: 301-774-8686",
+        "name": "Dr. Shalin Patel",
+        "availability": "2:00 PM to 8:00 PM",
+        "on_date": "Mon, Tue, Thu, Fri, Sat"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":375,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1800,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":430,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 2000,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "urology",
+    "name": "Urology",
+    "descriptions": "For the past 20 years, Cambridge Hospital has been the primary referral center for urology specialty because of their experience treating advanced and difficult-to-treat cases.\n\tAs the first center to perform urethral reconstruction procedures, the Cambridge Hospital boasts extensive experience in performing complex, individualized reconstructive procedures, in order to restore function to the urinary tract.\n\tThe specialists at the Cambridge Hospital are dedicated to providing personalized care that meets the needs of each individual patient.",
+    "images": "department-urology.jpg",
+    "thumb": "department-urology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-urology-doctor_1.jpg",
+        "details":"\nDr. Rajiv Sonti, MD\nLanguages: English\nSpecialties: Urology\n3800 Reservoir Road Northwest Washington, DC 20007\nPhone: 401-994-4545",
+        "name": "Dr. Rajiv Sonti",
+        "availability": "8:00 PM to 4:00 AM",
+        "on_date": "Mon, Tue, Fri, Sat, Sun"
+      },
+      {
+        "images": "department-urology-doctor_2.jpg",
+        "details":"\nDr. Jennifer Rebecca Brown, MD\nSpecialties: Urology\nLanguages: English\n2002 Medical ParkwaySuite 500Annapolis, MD 21401\nPhone: 410-573-6480",
+        "name": "Dr. Jennifer Rebecca Brown",
+        "availability": "2:00 PM to 8:00 PM",
+        "on_date": "Mon, Tue, Wed, Thu, Fri"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":355,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1650,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":425,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1900,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "gastrology",
+    "name": "Gastrology",
+    "descriptions": "The Cambridge Hospital offers nationally recognized physicians and gastroenterology doctors who are dedicated and highly specialized, extensive, and compassionate patient care for a full range of digestive system disease disorders, offers quality, encompassing services, including:\n\t • Diagnosis and treatment of complex digestive cancers, including endoscopic ultrasound\n\t • Colonoscopy screenings for polyps and cancers of the digestive tract\n\t • Minimally invasive colon and rectal surgery for malignant and benign disease\n\t • Video capsule endoscopy and treatment following diagnosis\n\t • Endoscopic esophageal pH test\n\t • Treatment of complex anal rectal fistulae\n\tEvaluation and treatment for patients with any type of liver disease, liver or biliary tumors, or patients in need of a transplant. The providers at the Cambridge Hospital consist of gastroenterologists, colon and rectal surgeons, a hepatologist, general surgeons, and certified registered nurse practitioners who partner with the patients and their referring physicians to provide non-invasive and minimally invasive robotic surgical options to reduce complications, decrease hospital stay, and reduce health risks so patients can regain their lives and return to daily activities, sooner.",
+    "images": "department-gastrology.jpg",
+    "thumb": "department-gastrology-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-gastrology-doctor_1.jpg",
+        "details":"\nDr. Alan Chen, MD\nSpecialties Gastrology\nLanguages: English, Chinese – Mandarin\n5009 Honeygo Center Drive Honeygo Professional Building Suite 216 Perry Hall, MD 21128\nPhone: 443-777-2475",
+        "name": "Dr. Alan Chen",
+        "availability": "8:00 PM to 8:00 AM",
+        "on_date": "Mon, Tue, Fri, Sat, Sun"
+      },
+      {
+        "images": "department-gastrology-doctor_2.jpg",
+        "details":"\nDr. Linda Ellen Rosenthal, MD\nSpecialties Gastrology\nLanguages: English\n1300 Bellona Avenue Suite B Lutherville, MD 21093\nPhone: 410-583-0300",
+        "name": "Dr. Linda Ellen Rosenthal",
+        "availability": "9:00 AM to 2:00 PM",
+        "on_date": "Mon, Tue, Fri, Sat, Sun"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":175,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 900,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":275,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1100,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  },
+  {
+    "id": "pediatrician",
+    "name": "Pediatrician",
+    "descriptions": "Cambridge Hospital pediatricians focus on the physical, emotional and social health of children—from newborns and infants to children and young adults.  Our pediatric physicians, nurse practitioners, nurses, and clinical staff at Cambridge Hospital are committed to providing children of all ages with excellent and compassionate medical care.\n\tFrom preventive health care to the diagnosis and treatment of acute and chronic diseases, Cambridge Hospital pediatric physicians and specialists include nationally recognized experts in children’s health. They understand that children grow quickly and that they must be approached with an appreciation for their stage of physical and mental development.\n\tPediatric care at Cambridge Hospital is not only comprehensive. It is also convenient. Our healthcare providers build partnerships with our patients and families by keeping them at the center of decision-making and encouraging them to participate in care whenever possible.",
+    "images": "department-pediatrician.jpg",
+    "thumb": "department-pediatrician-thumb.jpg",
+    "doctors": [
+      {
+        "images": "department-pediatrician-doctor_1.jpg",
+        "details":"\nDr. Michael A. Terao, MD\nSpecialties Pediatrics\nLanguages: English\n3800 Reservoir Road Northwest Washington, DC 20007\nPhone:  202-444-7599",
+        "name": "Dr. Michael A. Terao",
+        "availability": "8:00 AM to 2:00 PM",
+        "on_date": "Tue, Wed, Thu, Fri, Sat"
+      },
+      {
+        "images": "department-pediatrician-doctor_2.jpg",
+        "details":"\nDr. Susmita N. Sarangi, MD\nSpecialties Pediatrics\nLanguages: English\n3800 Reservoir Road Northwest Washington, DC 20007\nPhone: 202-444-7599",
+        "name": "Dr. Susmita N. Sarangi",
+        "availability": "2:00 PM to 8:00 PM",
+        "on_date": "Mon, Tue, Fri, Sat, Sun"
+      }
+    ],
+    "packages":{
+      "individual":{
+        "standard":{
+          "price":235,
+          "note":"First 60 minutes."
+        },
+        "prepaid":{
+          "price": 1250,
+          "note":"For six 60-minute sessions completed 8 weeks from first session. No refunds."
+        }
+      },
+      "family":{
+        "standard":{
+          "price":315,
+          "note":"First 90 minutes (minimum required)."
+        },
+        "prepaid":{
+          "price": 1500,
+          "note":"For six 90-minute sessions (minimum required). Must be completed 6-12 weeks from first session. No refunds."
+        }
+      }
+    }
+  }
+]

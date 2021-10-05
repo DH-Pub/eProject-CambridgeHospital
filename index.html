@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eProjectApp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambridge Hospital</title>
+  <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/angular-material/angular-material.min.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body ng-controller="HeaderController">
+  <section id="title">
+    <nav class="navbar navbar-expand-lg" id="top-header">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img id="logo" src="img/Cambridge-Hospital-logo.png" alt=""></a>
+
+        <div class="title-contact">
+          <p><i class="fas fa-phone-alt"></i>
+            111-111-111 (Hours of Operation: 24/7)
+          </p>
+          <p><i class="fas fa-envelope"></i>
+            <a class="contact-mail" href="mailto:cambridgehospital@email.com"> cambridgehospital@email.com</a>
+          </p>
+        </div>
+      </div>
+    </nav>
+
+    <nav id="nav-scroll" class="navbar navbar-expand-lg">
+      <!-- Hospital Icon -->
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse md-4" id="navbarContent">
+          <ul class="navbar-nav col-12">
+            <!-- Home -->
+            <li ng-class="{activelink: isActive('/')}" class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/">HOME</a>
+              <div class="underline"></div>
+            </li>
+            <!-- About Us -->
+            <li
+              ng-class="{activelink: isActive('/about') || isActive('/about/academics') || isActive('/about/success')}"
+              class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/about">ABOUT US</a>
+              <div class="underline"></div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#!/about/academics">ACADEMICS</a></li>
+                <li><a class="dropdown-item" href="#!/about/success">SUCCESS STORIES</a></li>
+              </ul>
+            </li>
+            <!-- Departments -->
+            <li ng-controller="depCatalogCtrl"
+              ng-class="{activelink: isActive('/departments') || isActive('/departments/cardiology') || isActive('/departments/pulmonology') || isActive('/departments/outpatient-surgery') || isActive('/departments/gynecology') || isActive('/departments/neurology') || isActive('/departments/urology') || isActive('/departments/gastrology') || isActive('/departments/pediatrician')}"
+              class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/departments">DEPARTMENTS</a>
+              <div class="underline"></div>
+              <ul class="dropdown-menu">
+                <li ng-repeat="department in departmentList"><a class="dropdown-item"
+                    href="#!/departments/{{department.id}}">{{department.name}}</a></li>
+              </ul>
+            </li>
+
+            <!-- Features -->
+            <li
+              ng-class="{activelink: isActive('/features') || isActive('/facilities') || isActive('/services') || isActive('/centres')}"
+              class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/features">FEATURES</a>
+              <div class="underline"></div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#!/facilities">Facilities</a></li>
+                <li><a class="dropdown-item" href="#!/services">Services</a></li>
+                <li><a class="dropdown-item" href="#!/centres">Centres</a></li>
+              </ul>
+            </li>
+            <!-- Contact -->
+            <li ng-class="{activelink: isActive('/contact')}" class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/contact">CONTACT US</a>
+              <div class="underline"></div>
+            </li>
+
+            <li ng-class="{activelink: isActive('/vacancies')}" class="nav-item col-md-2 text-center">
+              <a class="nav-link" href="#!/vacancies">VACANCIES</a>
+              <div class="underline"></div>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </nav>
+  </section>
+
+  <section id="main">
+    <div ng-view></div>
+  </section>
+
+  <!-- Feedback start -->
+  <section id="feedback">
+    <div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
+      <form method="POST" class="form panel-body" role="form">
+        <div class="form-group">
+          <input class="form-control" name="email" autofocus placeholder="Your e-mail" type="email" required />
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="body" placeholder="Please write your feedback here..." rows="5"
+            required></textarea>
+        </div>
+        <button class="btn btn-info" type="submit">Send</button>
+      </form>
+    </div>
+    <div id="feedback-tab">Feedback</div>
+  </section>
+  <!-- Feedback end -->
+
+  <footer class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>CONTACT</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Cambride Hospital in Washington, DC<br>
+            3800 Reservoir Rd NW, Washington, DC 20007<br>
+            <hr>
+            <i class="fas fa-phone-alt"></i> 111-111-111 (Hours of Operation: 24/7)<br>
+            <hr>
+            <i class="fas fa-envelope"></i><a class="contact-mail" href="mailto:cambridgehospital@email.com">
+              cambridgehospital@email.com</a>
+          </p>
+        </div>
+
+        <div class="offset-md-1 col-lg-3 col-md-6">
+          <h3>SEE ALSO</h3>
+          <ul>
+            <li><a class="footer-link" href="#!/about">About Us</a></li>
+            <li><a class="footer-link" href="#!/facilities">Facilities</a></li>
+            <li><a class="footer-link" href="#!/services">Services</a></li>
+            <li><a class="footer-link" href="#!/centres">Centres</a></li>
+            <li><a class="footer-link" href="#!/vacancies">Vacancies</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3>SOCIAL MEDIA</h3>
+          <p>To get more information and stay up to date</p>
+          <a class="footer-link" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+          <a class="footer-link" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a class="footer-link" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+
+          <h3>SUBSCRIBE FOR MORE</h3>
+          <div id="subscribe">
+            <form action="form-horizontal" name="sub">
+              <div class="form-group">
+                <div class="row">
+                  <div class="">
+                    <input class="form-control" name="subEmail" ng-model="subEmail" type="email"
+                      placeholder="Your Email" required>
+                  </div>
+                  <div class="mx-auto">
+                    <input type="button" class="btn btn-secondary" ng-disabled="sub.$invalid" ng-click="subCheck()"
+                      value="Subscribe">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <hr>
+    <div class="container" id="copyright">
+      <p>Cambridge Hospital © 1928 <a class="footer-link" href="">Privacy Policy</a><a class="footer-link" href="">Terms
+          of Services</a></p>
+    </div>
+  </footer>
+
+
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.min.js"></script>
+  <!-- Use ui.router -->
+  <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+  <!-- Angular Material -->
+  <script src="lib/angular-messages/angular-messages.min.js"></script>
+  <script src="lib/angular-animate/angular-animate.js"></script>
+  <script src="lib/angular-aria/angular-aria.min.js"></script>
+  <script src="lib/angular-material/angular-material.min.js"></script>
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="app.js"></script>
+  <script src="about/about.js"></script>
+  <script src="departments/departments.js"></script>
+  <script src="features/features.js"></script>
+
+</body>
+
+</html>
