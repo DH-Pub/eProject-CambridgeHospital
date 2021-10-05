@@ -21,7 +21,7 @@ eProject documentation at: https://github.com/DH-Pub/eProject-CambridgeHospital/
 
 ============================
 
-eProject published at: https://github.com/DH-Pub/eProject-CambridgeHospital
+eProject published at: https://dh-pub.github.io/eProject-CambridgeHospital/#!/
 
 ============================
 
